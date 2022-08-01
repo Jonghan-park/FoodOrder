@@ -29,7 +29,7 @@ const CartProvider = (props) => {
   const addItemToCartHandler = (item) => {
     dispatchCartAction({
       type: "ADD_ITEM",
-      items: item,
+      item: item,
     });
   };
   const removeItemFromCartHandler = (id) => {
